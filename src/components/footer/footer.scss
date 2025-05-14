@@ -1,0 +1,100 @@
+footer {
+    background-color: #1e1e1e;
+}
+
+.ftr-insta {
+
+    font-size: 18px;
+    color: #926d53;
+    border: 1px solid #926d53;
+    text-align: center;
+}
+
+.ftr-youtube {
+
+    font-size: 18px;
+    color: #d8545d;
+    border: 1px solid #d8545d;
+}
+
+.ftr-gmail {
+
+    font-size: 18px;
+    color: #faaa5e;
+    border: 1px solid #faaa5e;
+}
+
+.ftr-fb {
+    font-size: 18px;
+    color: #677fb5;
+    border: 1px solid #677fb5;
+}
+
+.ftr-insta:hover {
+    background-color: #926d53;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ftr-youtube:hover {
+    background-color: #d8545d;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ftr-gmail:hover {
+    background-color: #faaa5e;
+    color: #fff;
+    transition: 0.3sf;
+}
+
+.ftr-fb:hover {
+    background-color: #677fb5;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ftr-social {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+.ftr-text {
+    width: 50%;
+}
+
+.ftr-text p {
+    color: #cacaca;
+}
+
+.footer-div {
+    display: flex;
+    height: 78px;
+    align-items: center;
+}
+
+.footer-div p {
+    margin-bottom: 0;
+}
+
+.footer-div p {
+    margin-bottom: 0;
+}
+
+.ftr-social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    width: 26px;
+    font-size: 15px;
+}
+
+@media(max-width:767px) {
+    .ftr-text {
+        font-size: 13px;
+    }
+}

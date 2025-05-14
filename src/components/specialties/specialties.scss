@@ -1,0 +1,47 @@
+// .specialties{
+//     h2{
+//         margin-top: 12px;
+//         margin-bottom: 45px;
+//         @media (max-width:991px){
+//             margin-bottom: 35px;
+//             margin-top:0;
+//         }
+//     }
+    
+// }
+
+.specialties-wrapper{
+    >a{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 15px 15px 17px 15px;
+        background: #fff;
+        display: block;
+        width: 100%;
+        margin-right: 2%;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        img{
+            width: 100%;
+            aspect-ratio: 20 / 10;
+            object-fit: cover;
+            object-position: center;
+            margin-bottom: 18px;
+            transition: 0.3s;
+        }
+
+        &:hover img{
+            scale: 1.02;
+        }
+    }
+    
+    @media(max-width:991px){
+        >div{
+            padding: 10px 10px 13px 10px;
+            text-align: center;
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+/**************** banner start ****************/
+.banner {
+	background-color: var(--bs-primary);
+	color: #fff;
+	padding: 75px 0;
+}
+
+.banner-text h2 {
+	line-height: 1.5;
+}
+
+.banner-port {
+	text-align: center;
+
+	img {
+		max-width: 300px;
+		width: 100%;
+		border-radius: 50%;
+		border: 2px solid #28b8d8;
+		object-fit: cover;
+		object-position: center;
+		aspect-ratio: 1 / 1;
+	}
+
+	h2 {
+		font-weight: 700;
+		margin-top: 15px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
+
+.banner-text {
+	margin-bottom: 90px;
+
+	h2 {
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
+
+.bottom-line {
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+
+	&:before {
+		content: "";
+		position: absolute;
+		bottom: -17px;
+		width: 100%;
+		background-color: var(--bs-secondary);
+		height: 4px;
+		z-index: 1;
+	}
+}
+
+.spacer {
+	height: 60px;
+}
+
+@media (max-width:992px) {
+	.banner {
+		padding: 55px 0;
+	}
+
+	.banner-text {
+		margin-bottom: 44px;
+
+		h2 {
+			font-size: 26px;
+			margin-bottom: 30px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+	}
+
+	.bottom-line {
+		&:before {
+			bottom: -12px;
+			height: 3px;
+		}
+	}
+
+	.banner-port {
+		h2 {
+			font-size: 24px;
+		}
+
+		p {
+			font-size: 16px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	.banner .banner-text {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 0;
+	}
+
+	.bottom-line:before {
+		bottom: -1px;
+		height: 3px;
+	}
+}
+
+/*************** banner end *****************/
