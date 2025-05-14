@@ -4,12 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-//*********  bootstrap **********
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-//********* custom main css **********
 import './main.scss';
 
 

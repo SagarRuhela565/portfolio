@@ -4,11 +4,9 @@ import Contact from "./pages/contact/contactUs";
 import About from "./pages/about/about";
 import Layout from './pages/layout';
 
-//*********  bootstrap **********
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-//********* custom main css **********
 import './main.scss';
 
 function App() {

@@ -8,13 +8,7 @@ import { faInstagram, faFacebookF} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import React, { useState } from 'react';
 
-
-
-
-
-//****************  css ***********************/
 import '../header/header.scss';
-//************  images ******************
 import logo from '../../assets/images/sagar-profile-img.jpg';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
