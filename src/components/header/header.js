@@ -9,7 +9,7 @@ import { faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import React, { useState } from 'react';
 
 import '../header/header.scss';
-import logo from '../../assets/images/sagar-profile-img.jpg';
+import logo from '../../assets/images/sagar-profile-img.png';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 

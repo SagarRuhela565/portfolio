@@ -8,7 +8,7 @@ import Cursor from '../../components/cursor/cusorAnimtion';
 import '../home/home.scss'
 
 // images
-import profile from '../../assets/images/sagar-profile-img.jpg';
+import profile from '../../assets/images/sagar-profile-img.png';
 import Experience from '../../components/experience/experience';
 
 
@@ -22,15 +22,15 @@ const Home = () => {
                     <div>
                         <img src={profile} alt="Sagar Ruhela" title="Sagar ruhela"/>
                         <h2>Sagar Ruhela</h2>
-                        <p>Web Designer</p>
-                    </div>
+                        <p>Web Designer || Frontent Developer</p>
+                    </div> 
                 </div>
                 <div className="col-md-8 banner-text background-2nd">
                     <div className='cursor-in'>
                         <h2> <span className="bottom-line"> Designing </span> Dynamic Web Experiences 
                          
                         </h2>
-                        <p>With 4 years of experience, I am a Creative Web Designer adept at converting UI/UX designs into responsive websites. I possess the skills to interpret clean, defined codes from visual designs. I constantly refine workflows and design solutions using AI tools and building my own basic functionalities. A self-motivated dynamic thinker, I hope to join a progressive development team to contribute my ideas and code.</p>
+                        <p>With 4.6 years of experience, I am a Creative Web Designer adept at converting UI/UX designs into responsive websites. I possess the skills to interpret clean, defined codes from visual designs. I constantly refine workflows and design solutions using AI tools and building my own basic functionalities. A self-motivated dynamic thinker, I hope to join a progressive development team to contribute my ideas and code.</p>
                         <Cursor />
                     </div>
                 </div>

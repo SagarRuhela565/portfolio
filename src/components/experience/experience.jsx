@@ -22,11 +22,15 @@ const Experience = () => {
                 </div>
                 <div className="list-skill">
                   JavaScript
-                  <div className="bar" style={{ "---progress": "36%" }} />
+                  <div className="bar" style={{ "---progress": "66%" }} />
                 </div>
                 <div className="list-skill">
                   React
-                  <div className="bar" style={{ "---progress": "36%" }} />
+                  <div className="bar" style={{ "---progress": "66%" }} />
+                </div>
+                 <div className="list-skill">
+                  NextJS
+                  <div className="bar" style={{ "---progress": "66%" }} />
                 </div>
                 <div className="list-skill" style={{ "---progress": "85%" }}>
                   Git/GitHub
@@ -38,10 +42,18 @@ const Experience = () => {
                 </div>
                 <div className="list-skill">
                   Bootstrap
+                  <div className="bar" style={{ "---progress": "86%" }}/>
+                </div>
+                <div className="list-skill" style={{ "---progress": "77%" }}>
+                  Tailwind
+                  <div className="bar" />
+                </div>
+                 <div className="list-skill" style={{ "---progress": "77%" }}>
+                  Cpanel
                   <div className="bar" />
                 </div>
                 <div className="list-skill" style={{ "---progress": "70%" }}>
-                  Tailwind
+                  Jquery
                   <div className="bar" />
                 </div>
               </div>
