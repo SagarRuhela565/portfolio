@@ -47,7 +47,7 @@ const specialties = () => {
               </Link>
             </Col>
             <Col md={4} target='_blank' className='specialties-wrapper'>
-              <Link className='d-block' target='_blank' to="https://www.kilbirniehotel.co.uk/">
+              <Link className='d-block' target='_blank' to="https://www.geologicatraining.com/">
                 <img src={Sp5} alt='' />
                 <h4>Geologica Training</h4>
                 <p className='fonts-3 mb-0'>Whether you seek field skills or advanced learning, our geological training supports your growth effectively.</p>
